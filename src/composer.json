@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+        "rhumsaa/uuid": "2.7",
+        "moontoast/math": "*",
+        "nategood/httpful": "0.2.19",
+        "peej/tonic": "dev-master",
+        "zendframework/zend-validator" : "2.0.3",
+        "aferrandini/phpqrcode": "1.0.1",
+        "monolog/monolog": "1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Outlet\\": "vendors/Outlet",
+            "Coupon\\": "vendors/Coupon"
+        }
+    }
+}
